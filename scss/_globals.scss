@@ -12,6 +12,7 @@ html {
 }
 
 body {
+    min-height: 100vh;
     background: $violet;
     background-image: url(/images/bg-desktop.svg);
 }
