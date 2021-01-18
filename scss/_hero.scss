@@ -1,0 +1,42 @@
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__image {
+        margin: 2rem 4rem;
+        height: auto;
+        width: 50%;
+    }
+
+    &__text {
+        color: white;
+        margin-right: 4rem;
+        margin-bottom: 4.5rem;
+    }
+
+    &__text h1 {
+        margin-bottom: 2rem;
+    }
+
+    &__text p {
+        margin-bottom: 2rem;
+    }
+
+    &__socialmedia {
+        float: right;
+        margin: 0rem 4rem;
+    }
+
+    &__fb {
+        margin-right: 1rem;
+    }
+
+    &__twitter {
+        margin-right: 1rem;
+    }
+
+    &__instagram {
+        margin-right: 0rem;
+    }
+}
